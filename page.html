@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Feed</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background>
+    <div class="video-container">
+        <video autoplay muted loop id="video-background">
+            <source src="backgrounds/background-video.mp4" type="video/mp4">
+        </video>
+        
+        <div class="dropdown">
+            <button class="dropbtn"> Click Here to select the catagory which you want in your feed and block all other content</button>
+            <div class="dropdown-content">
+                <div class="scrollable-content">
+                <label for="item1"><input type="checkbox" id="item1" value="Business"> Business</label>
+                <label for="item2"><input type="checkbox" id="item2" value="Music"> Music</label>
+                <label for="item3"><input type="checkbox" id="item3" value="Potraits"> Potraits</label>
+                <label for="item4"><input type="checkbox" id="item4" value="Sports"> Sports</label>
+                <label for="item5"><input type="checkbox" id="item5" value="Wildlife"> Wildlife</label>
+                </div>
+            </div>
+        </div>
+        
+       
+        
+        <header>
+            <h1><div class="text">Your Feed</div></h1>
+        </header>
+        
+        <div class="lower">
+            <div class="feed">    
+                <div class="post" data-tags="business">
+                    <div class="post-wrapper">
+                        <img src="Categories/Business/1.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="post" data-tags="business">
+                    <div class="post-wrapper">
+                        <img src="Categories/Business/2.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="post" data-tags="music">
+                    <div class="post-wrapper">
+                        <img src="Categories/Music/1.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="post" data-tags="music">
+                    <div class="post-wrapper">
+                        <img src="Categories/Music/2.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="post" data-tags="Potraits">
+                    <div class="post-wrapper">
+                        <img src="Categories/Potraits/image-1.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="post" data-tags="Potraits">
+                    <div class="post-wrapper">
+                        <img src="Categories/Potraits/image-2.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="post" data-tags="Potraits">
+                    <div class="post-wrapper">
+                        <img src="Categories/Potraits/image-4.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="post" data-tags="Potraits">
+                    <div class="post-wrapper">
+                        <img src="Categories/Potraits/image-3.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="post" data-tags="Sports">
+                    <div class="post-wrapper">
+                        <img src="Categories/Sports/sports1.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="post" data-tags="Sports">
+                    <div class="post-wrapper">
+                        <img src="Categories/Sports/sports2.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="post" data-tags="wildlife">
+                    <div class="post-wrapper">
+                        <img src="Categories/Wildlife/wildlife1.png" alt="Post 1" class="post-image">
+                        <div class="comments">
+                            <div class="comment-input">
+                                <input type="text" id="comment-input" placeholder="Add a comment...">
+                                <button id ="postButton" onclick="addComment('comment-input', 'User1')">Post</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="dropdown">
+                <button class="aboutbutton" onclick="location.href='aboutus.html'">About Our Project and About US</button>
+            </div>
+        </footer>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
