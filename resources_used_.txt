@@ -1,0 +1,17 @@
+Resources:
+
+(bg_video): Video by "https://pixabay.com/users/newhumandesigns-8896/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=12716">NewHumanDesigns 
+from 
+https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=12716">Pixabay
+
+(ai_generated_images): https://hotpot.ai/art-generator
+
+(bg_video): Video by https://pixabay.com/users/sahn_vit-6616497/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=23411">JEONGWOO KIM from "https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=23411">Pixabay
+
+(html/css/js_code_help):https://chat.openai.com/
+
+(login_page_tutorial):https://www.youtube.com/watch?v=LTPGyaEyTI4&ab_channel=GreatStack
+
+https://stackoverflow.com/
+
+https://www.w3schools.com/css/default.asp
